@@ -1,0 +1,51 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    
+font-family: 'Special Elite', cursive;
+
+/* font-family: 'VT323', monospace;
+font-family: 'Playfair Display', serif; */
+}
+
+html{
+    background-image: url('hack.jpg');
+}
+
+h1{
+    color: white;
+}
+
+.btn{
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border-radius: 8px;
+
+}
+
+.btn:hover{
+    background-color: grey;
+    font-size: 1.08rem;
+}
+
+.equal{
+    background-color: orange;
+}
+.equal:hover{
+    background-color: rgb(132, 87, 5);
+}
+
+.row{
+    margin: 7px 0;
+}
+
+.row input{
+    width: 295px;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    padding: 10px 0px;
+    border: 2px ridge rgb(40, 39, 39);
+    border-radius: 8px;
+}
